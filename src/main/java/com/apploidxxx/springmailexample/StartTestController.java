@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.mail.MessagingException;
-import java.io.IOException;
 
 /**
  * @author Arthur Kupriyanov
@@ -26,7 +25,7 @@ public class StartTestController {
     }
 
     @GetMapping("attachment")
-    public void withAttachment() throws IOException, MessagingException {
+    public void withAttachment() throws MessagingException {
         emailService.sendEmailWithAttachment("to_email@gmail.com", "Arthur");
     }
 }
