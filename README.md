@@ -107,4 +107,4 @@ localhost:8080/start/attachment
 
 ![](https://i.imgur.com/qeMkeg5.png)
 
-Also, you can check simple JavaMail with javax in pure java without Spring : https://github.com/AppLoidx/JavaMail-Example
+Also, you can check simple JavaMail with javax in pure java without Spring : [JavaMail-Example](https://github.com/AppLoidx/JavaMail-Example)
