@@ -1,4 +1,6 @@
-# Spring Boot JavaMail example
+# Spring Boot JavaMail example 
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/AppLoidx/spring-mail-example.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/AppLoidx/spring-mail-example/context:java)
+
 
 First, you need to configure your application properties with your credentials:
 
